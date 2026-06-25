@@ -1,17 +1,49 @@
-# this
+# 左右反転画像 生成プログラム flip.py
 
-## that
+## 1. 概要
 
-### it
+引数で指定した画像の左右反転画像を姿勢するpython 3 で動作するプログラムです。
 
-| name | junle |
-|---|---|
-| 111 | 222 |
-| aaa | bbb |
-|qa|ws|
-|ed|rf|
-|tg|yh|
-|uj|ik|
-|ol|p;|
+##2. ソースコード
+
+"""
+# this program is omly able to use python 3
+# あらかじめ pip install pillow で pillow をインストールしておきます。
+from PIL import Image
+import sys
+
+# コマンドライン引数から入力画像と出力画像のファイル名を取得
+input_image = sys.argv[1]
+output_image = sys.argv[2]]
+
+# 画像の読み込み
+img = Image.open(input_image)
+
+# 画像の左右反転
+img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
+
+# 画像の保存
+img_flip.save(output_image)
+"""
+
+##3. 使い方
+
+###3. 1. 実行例
+
+* コマンドラインフォーマット
+
+  "python3 flip.py <input_image_path> <output_image_path>"
+
+* 利用例
+
+   "python3 flip.py input.jpeg ount.jpeg
+
+###3. 2. 出力結果
+
+* 以下のように入力画像の左右反転画像が出力されます
+
+  |入力画像(input.jpeg)|出力画像(output.jpeg)|
+  |![編集前](input.jpeg)|![出力画像](output.jpeg)|
 
 
+以上
