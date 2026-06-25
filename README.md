@@ -6,7 +6,7 @@
 
 ##2. ソースコード
 
-```
+```python
 # this program is omly able to use python 3
 # あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
@@ -32,12 +32,13 @@ img_flip.save(output_image)
 
 * コマンドラインフォーマット
 
-  `python3 flip.py <input_image_path> <output_image_path>`
-
+```python
+python3 flip.py <input_image_path> <output_image_path>
+```
 * 利用例
-
-   `python3 flip.py input.jpeg ount.jpeg`
-
+```python
+python3 flip.py input.jpeg ount.jpeg
+```
 ###3. 2. 出力結果
 
 * 以下のように入力画像の左右反転画像が出力されます
