@@ -6,7 +6,7 @@
 
 ##2. ソースコード
 
-'''
+```
 # this program is omly able to use python 3
 # あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
@@ -24,7 +24,7 @@ img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
 
 # 画像の保存
 img_flip.save(output_image)
-'''
+```
 
 ##3. 使い方
 
@@ -32,11 +32,11 @@ img_flip.save(output_image)
 
 * コマンドラインフォーマット
 
-  'python3 flip.py <input_image_path> <output_image_path>'
+  `python3 flip.py <input_image_path> <output_image_path>`
 
 * 利用例
 
-   'python3 flip.py input.jpeg ount.jpeg'
+   `python3 flip.py input.jpeg ount.jpeg`
 
 ###3. 2. 出力結果
 
