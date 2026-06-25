@@ -43,6 +43,7 @@ img_flip.save(output_image)
 * 以下のように入力画像の左右反転画像が出力されます
 
   |入力画像(input.jpeg)|出力画像(output.jpeg)|
+  | --- | --- |
   |![編集前](input.jpeg)|![出力画像](output.jpeg)|
 
 
