@@ -7,7 +7,7 @@
 ## 2. ソースコード
 
 ```python
-# this program is omly able to use python 3
+# このプログラムは、python3用です。
 # あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
 import sys
