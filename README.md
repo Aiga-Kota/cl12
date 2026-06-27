@@ -37,15 +37,15 @@ python3 flip.py <input_image_path> <output_image_path>
 ```
 * 利用例
 ```python
-python3 flip.py input.jpeg ount.jpeg
+python3 flip.py input.jpg ount.jpg
 ```
 ### 3. 2. 出力結果
 
 * 以下のように入力画像の左右反転画像が出力されます
 
-  |入力画像(input.jpeg)|出力画像(output.jpeg)|
+  |入力画像(input.jpg)|出力画像(output.jpg)|
   | --- | --- |
-  |![編集前](input.jpeg)|![出力画像](output.jpeg)|
+  |![編集前](input.jpg)|![出力画像](output.jpg)|
 
 
 以上
